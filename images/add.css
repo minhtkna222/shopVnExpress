@@ -1,0 +1,208 @@
+.flash-info-detail {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 13px 15px;
+    overflow: hidden;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #8a6d3b;
+    background-color: #f9f0c4;
+    border: 1px solid;
+    border-color: #f3eabf;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+#wrapper-page-single-post {
+    width: 100%;
+    font: 14px/22px Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background: #ffffff;
+    position: relative;
+    display: block;
+    overflow: hidden; }
+#wrapper-page-single-post * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+#wrapper-page-single-post .container {
+    padding: 0 15px !important;
+    margin: 0 auto; }
+#wrapper-page-single-post ::-moz-selection {
+    color: #fff;
+    background: #0f4583; }
+#wrapper-page-single-post ::selection {
+    color: #fff;
+    background: #0f4583; }
+#wrapper-page-single-post :after, #wrapper-page-single-post :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+#wrapper-page-single-post .clearfix {
+    clear: both; }
+#wrapper-page-single-post .clearfix::before {
+    content: " ";
+    display: table; }
+#wrapper-page-single-post .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both; }
+#wrapper-page-single-post img.responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+#wrapper-page-single-post img.scaledown {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down; }
+#wrapper-page-single-post img.contain {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
+#wrapper-page-single-post img.img-responsive {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    object-fit: cover; }
+#wrapper-page-single-post img.img-initial {
+    width: initial !important;
+    height: initial !important;
+    clear: both; }
+#wrapper-page-single-post a {
+    color: #0d4c92;
+    text-decoration: none;
+    -webkit-transition: ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: ease-in-out .15s,box-shadow ease-in-out .15s; }
+#wrapper-page-single-post a:hover {
+    text-decoration: none;
+    color: inherit; }
+#wrapper-page-single-post a:focus {
+    text-decoration: none;
+    color: inherit; }
+#wrapper-page-single-post p {
+    font: 14px/22px Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-weight: normal; }
+#wrapper-page-single-post .hidden {
+    display: none; }
+#wrapper-page-single-post .box {
+    position: relative;
+    display: block; }
+#wrapper-page-single-post .div {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%; }
+#wrapper-page-single-post .box-effect {
+    position: relative;
+    display: block;
+    overflow: hidden; }
+#wrapper-page-single-post .box-effect::before {
+    position: absolute;
+    top: 0;
+    left: -84%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg); }
+#wrapper-page-single-post .box-effect:hover::before {
+    -webkit-animation: shine 1s;
+    animation: shine 1s; }
+@-ms-keyframes shine {
+    100% {
+        left: 125%; } }
+@-moz-keyframes shine {
+    100% {
+        left: 125%; } }
+@-webkit-keyframes shine {
+    100% {
+        left: 125%; } }
+#wrapper-page-single-post .bg-white {
+    background: #fff; }
+#wrapper-page-single-post .white {
+    color: #fff; }
+#wrapper-page-single-post .bg-red {
+    background: red; }
+#wrapper-page-single-post .red {
+    color: red; }
+#wrapper-page-single-post .uppercase {
+    text-transform: uppercase; }
+#wrapper-page-single-post .f-left {
+    float: left; }
+#wrapper-page-single-post .f-right {
+    float: right; }
+#wrapper-page-single-post .center {
+    display: block;
+    text-align: -webkit-center; }
+#wrapper-page-single-post .page-single-post {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 40px 15px;
+    overflow: hidden; }
+#wrapper-page-single-post .page-single-post .content-post {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background: #f5f5f5; }
+#wrapper-page-single-post .page-single-post .content-post h1 {
+    margin: 0 0 20px;
+    font-weight: 700;
+    font-size: 26px; }
+#wrapper-page-single-post .page-single-post .content-post h2 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-size: 21px; }
+#wrapper-page-single-post .page-single-post .content-post h3 {
+    margin: 0 0 105px;
+    font-weight: 700;
+    font-size: 18px; }
+#wrapper-page-single-post .page-single-post .content-post p {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px; }
+
+#wrapper_footer {
+    margin-top: 0 !important; }
+
+@media (max-width: 767px) {
+    #wrapper-page-single-post .page-single-post {
+        padding: 30px 10px; }
+    #wrapper-page-single-post .page-single-post .content-post {
+        padding: 40px 15px; }
+    #wrapper-page-single-post .page-single-post .content-post h1 {
+        margin: 0 0 15px;
+        font-size: 21px; }
+    #wrapper-page-single-post .page-single-post .content-post h2 {
+        margin: 0 0 10px;
+        font-size: 18px; }
+    #wrapper-page-single-post .page-single-post .content-post h3 {
+        margin: 0 0 5px;
+        font-size: 16px; }
+    #wrapper-page-single-post .page-single-post .content-post p {
+        margin-bottom: 8px;
+        font-size: 14px; } }
